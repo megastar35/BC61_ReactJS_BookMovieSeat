@@ -1,0 +1,22 @@
+.bookingTicket {
+    height: 100%;
+    background-image: url('./public/image/bgmovie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.bookingTicket::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+}
+
+.regist_seat_form {
+    position: relative;
+    z-index: 10;
+}
